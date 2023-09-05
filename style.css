@@ -1,0 +1,45 @@
+/*
+
+
+
+*/
+
+.hero .footer {
+    background-color: 1F2937;
+}
+
+.hero {
+    color:F9FAF8;
+    font-size:48px;
+    font-weight: bolder;
+}
+
+.secondhero .headerlink {
+    color:E5E7EB;
+    font-size: 18px;
+}
+
+.headerlogo {
+    color:F9FAF8;
+    font-size: 24px;
+}
+
+.button .calltoaction{
+    color:3882F6;
+}
+
+.infoheader {
+    color:1F2937;
+    font-size:36px;
+    font-weight: bolder;
+}
+
+.quoteback {
+    color:E5E7EB;
+}
+
+.quotetext {
+    color:1F2937;
+    font-size:36px;
+    font-weight: italic;
+}
