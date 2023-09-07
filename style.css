@@ -1,3 +1,4 @@
+
 /*
 HEADER
 */
@@ -12,23 +13,28 @@ HEADER
     height: 100px;
     width: 250px;
     background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
 }
 
 .headerleft{
     display: flex;
     flex: 1;
-    border: 2px black;
+    color:#F9FAF8;
+    font-size: 24px;
 }
 
 .headerright{
     display: flex;
     flex:1;
-    border: 2px black;
 }
 
-.headerlink1 .headerlink2 .headerlink3{
+.headerlink1:link .headerlink2:link .headerlink3:link{
     flex: 1;
-    border: 2px black;
+    color:#E5E7EB;
+    font-size: 18px;
 }
 
 
@@ -44,11 +50,25 @@ LOGIN
     border: 2px solid orange;
     height: 100px;
     width: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1F2937;
 }
 
 .loginleft {
     flex: 1;
+    color:#F9FAF8;
+    font-size:48px;
+    font-weight: bolder;
 }
+
+/*
+.secondhero {
+    color:#E5E7EB;
+    font-size: 18px;
+}
+*/
 
 .loginright {
     flex: 1;
@@ -58,49 +78,105 @@ LOGIN
 RANDOM INFO
 */
 
-
-
-
-/*
-COLORI
-*/
-
-.hero .footer {
-    background-color: 1F2937;
-}
-
-.hero {
-    color:F9FAF8;
-    font-size:48px;
+.infotop{
+    text-align: center;
+    border: 2px solid orange;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:#1F2937;
+    font-size:36px;
     font-weight: bolder;
 }
 
-.secondhero .headerlink {
-    color:E5E7EB;
+.infobottom {
+    display: flex;
+}
+
+.infobottom div {
+    border: 2px solid orange;
+    height: 100px;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.infoimg {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.img {
+    flex: 1;
+}
+
+.imgdesc {
+    flex: 1;
+}
+
+/*
+QUOTE
+*/
+
+.quote{
+    border: 2px solid orange;
+    text-align: center;
+    background-color:#E5E7EB;
+    color:#1F2937;
+    font-size:36px;
+    font-weight: italic;
+}
+
+/*
+BOTTONE
+*/
+
+.areabottone{
+    display: flex;
+}
+
+.areabottone div {
+    border: 2px solid orange;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    flex: 1;
+}
+
+.contenitorebottone{
+    display: flex;
+    flex: 1;
+    background-color:#3882F6;
+}
+
+.bottone{
+    flex: 1;
+    background-color:#3882F6;
+    color:#E5E7EB;
     font-size: 18px;
 }
 
-.headerlogo {
-    color:F9FAF8;
-    font-size: 24px;
+.descbottone{
+    flex: 1;
+    background-color:#3882F6;
+    color:#E5E7EB;
+    font-size: 18px;
 }
 
-.button .calltoaction{
-    color:3882F6;
-}
+/*
+FOOTER
+*/
 
-.infoheader {
-    color:1F2937;
-    font-size:36px;
-    font-weight: bolder;
-}
-
-.quoteback {
-    color:E5E7EB;
-}
-
-.quotetext {
-    color:1F2937;
-    font-size:36px;
-    font-weight: italic;
+.footer{
+    border: 2px solid orange;
+    text-align: center;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    font-size: 18px;
 }
