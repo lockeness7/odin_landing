@@ -1,7 +1,68 @@
 /*
+HEADER
+*/
+
+.header {
+    display: flex;
+}
+
+
+.header div {
+    border: 2px solid orange;
+    height: 100px;
+    width: 250px;
+    background-color: #1F2937;
+}
+
+.headerleft{
+    display: flex;
+    flex: 1;
+    border: 2px black;
+}
+
+.headerright{
+    display: flex;
+    flex:1;
+    border: 2px black;
+}
+
+.headerlink1 .headerlink2 .headerlink3{
+    flex: 1;
+    border: 2px black;
+}
+
+
+/*
+LOGIN
+*/
+
+.login {
+    display: flex;
+}
+
+.login div {
+    border: 2px solid orange;
+    height: 100px;
+    width: 250px;
+}
+
+.loginleft {
+    flex: 1;
+}
+
+.loginright {
+    flex: 1;
+}
+
+/*
+RANDOM INFO
+*/
 
 
 
+
+/*
+COLORI
 */
 
 .hero .footer {
