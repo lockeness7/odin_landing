@@ -9,7 +9,6 @@ HEADER
 
 
 .header div {
-    border: 2px solid orange;
     height: 150px;
     width: 250px;
     background-color: #1F2937;
@@ -47,7 +46,6 @@ LOGIN
 }
 
 .login div {
-    border: 2px solid orange;
     height: 200px;
     width: 250px;
     align-items: center;
@@ -80,7 +78,6 @@ RANDOM INFO
 
 .infotop{
     text-align: center;
-    border: 2px solid orange;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -94,7 +91,7 @@ RANDOM INFO
 }
 
 .infobottom div {
-    border: 2px solid orange;
+    
     height: 350px;
     width: 250px;
     align-items: center;
@@ -109,6 +106,8 @@ RANDOM INFO
 }
 
 .img {
+    border: 2px solid orange;
+    border-radius: 25px;
     flex: 1;
 }
 
@@ -120,23 +119,32 @@ RANDOM INFO
 QUOTE
 */
 
+.quotona{
+    display: flex;
+    flex-direction: column;
+}
+
+.quotona div{
+    background-color:#E5E7EB;
+}
+
 .quote{
-    border: 2px solid orange;
     text-align: center;
     background-color:#E5E7EB;
     color:#1F2937;
     font-size:36px;
     font-style: italic;
+    flex:1;
 }
 
 .chiquote{
-    border: 2px solid orange;
     text-align: center;
     background-color:#E5E7EB;
     color:#1F2937;
     font-size:20px;
     font-weight: bold;
     text-align: right;
+    flex:1;
 }
 
 /*
@@ -145,38 +153,45 @@ BOTTONE
 
 .areabottone{
     display: flex;
+    padding: 40px;
+    width: 800px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .areabottone div {
-    border: 2px solid orange;
+ 
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
-.box{
-    display: flex;
-    flex: 1;
-}
 
 .contenitorebottone{
     display: flex;
     flex: 1;
     background-color:#3882F6;
+    gap: 40px;
+
 }
 
 .bottone{
-    flex: 1;
+    flex: 0,5;
     background-color:#3882F6;
     color:#E5E7EB;
     font-size: 18px;
+    width: 200px;
+  height: 60px;
 }
 
 .descbottone{
-    flex: 1;
+    flex: 0,5;
     background-color:#3882F6;
     color:#E5E7EB;
     font-size: 18px;
+    width: 200px;
+  height: 60px;
 }
 
 /*
@@ -184,7 +199,7 @@ FOOTER
 */
 
 .footer{
-    border: 2px solid orange;
+
     text-align: center;
     background-color: #1F2937;
     color:#E5E7EB;
